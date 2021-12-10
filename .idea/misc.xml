@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Kotlin/Giaodien/app/src/main/res/layout/activity_main.xml" value="0.21197916666666666" />
+        <entry key="..\:/Kotlin/Giaodien/app/src/main/res/layout/activity_start.xml" value="0.2125" />
+        <entry key="..\:/Kotlin/Giaodien/app/src/main/res/layout/layout_food.xml" value="0.2125" />
         <entry key="..\:/Kotlin/Giaodien/app/src/main/res/layout/layout_foot.xml" value="0.2109375" />
         <entry key="..\:/Kotlin/Giaodien/app/src/main/res/layout/layout_listview.xml" value="0.17307692307692307" />
       </map>
