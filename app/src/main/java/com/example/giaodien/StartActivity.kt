@@ -19,11 +19,15 @@ class StartActivity : AppCompatActivity() {
         val textview_account = findViewById(R.id.textview_newaccount) as TextView
 
         button_login.setOnClickListener {
-            if (edittext_username.text.equals("")||edittext_pass.text.equals("")){
-                Toast.makeText(this,"fail", Toast.LENGTH_SHORT).show()
-            }else{
+
+            val msg : String= edittext_username.text.toString()
+            val msg2 : String = edittext_pass.text.toString()
+            if (msg.trim().length > 0 || msg2.trim().length > 0){
                 val intent : Intent = Intent(this@StartActivity, MainActivity::class.java)
-                startActivity(intent)
+              startActivity(intent)
+                Toast.makeText(this, "Done", Toast.LENGTH_SHORT).show()
+            }else{
+                Toast.makeText(this, "fail", Toast.LENGTH_SHORT).show()
             }
         }
 
